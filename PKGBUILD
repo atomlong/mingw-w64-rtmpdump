@@ -1,6 +1,6 @@
 # Maintainer: Karl-Felix Glatzer <karl.glatzer@gmx.de>
 pkgname=mingw-w64-rtmpdump
-pkgver=2.4.r99.f1b83c1
+pkgver=2.4.r105.6f6bb13
 pkgrel=1
 pkgdesc='A toolkit for RTMP streams (mingw-w64)'
 arch=(any)
@@ -18,7 +18,7 @@ options=(!strip !buildflags !makeflags staticlibs)
 makedepends=(
   mingw-w64-gcc git
 )
-_commit=f1b83c10d8beb43fcc70a6e88cf4325499f25857
+_commit=6f6bb1353fc84f4cc37138baa99f586750028a01
 source=(git+https://git.ffmpeg.org/rtmpdump#commit=${_commit})
 sha256sums=(SKIP)
 _architectures="i686-w64-mingw32 x86_64-w64-mingw32"
